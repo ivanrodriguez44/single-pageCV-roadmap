@@ -1,0 +1,102 @@
+html{
+    font-size: 62.5%; /* 1rem = 10px */
+    box-sizing: border-box;
+}
+
+*::after, *::before{
+    box-sizing: inherit;
+}
+
+:root{
+    --white: #fff;
+    --black: #000;
+    --principal-font: "Roboto", sans-serif;
+    --green: #4cc954;
+    --blue: #3a92ba;
+}
+
+body{
+    color: var(--black);
+    font-weight: 500;
+    font-family: var(--principal-font);
+    font-size: 1.6rem;
+}
+
+hr{
+    border: 1px solid var(--black);
+    max-width: 70%;
+    text-align: left;
+    margin: 5rem 0 0 0;
+}
+
+h1, h2, h3{
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 1.6rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    border: 3px solid #000;
+    max-width: 50%;
+    /* min-height: 100%; */
+    margin: 0 auto;
+}
+
+[class$="__container"]{
+    margin-left: 6rem;
+}
+
+.header__myName{
+    font-weight: 500;
+    margin: 3rem 0 1rem 0;
+}
+
+[class$="__heading"]{
+    color: var(--green);
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+[class$="__date"]{
+    font-size: 1.6rem;
+}
+
+.education__degree, .experience__jobTitle{
+    color: var(--blue);
+    font-weight: 500;
+}
+
+[class$="__achievements"]{
+    padding-left: 3rem;
+}
+
+[class$="__achiev"]{
+    list-style-type: disc;
+}
+
+.socialMedia__link{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.socialMedia__link:hover{
+    color: var(--blue);
+}

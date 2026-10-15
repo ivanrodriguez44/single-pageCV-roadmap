@@ -3,98 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Single-Page CV from Ivan Doble R">
+    <meta name="keywords" content="Frontend, HTML, CV">
+    <meta name="author" content="ivan doble r">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>Single-Page CV</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <hr>
-            <h1 class="header__myName">José Iván Rodríguez</h1>
-        </div>
-    </header>
-    <section class="contact">
-        <div class="contact__container">
-            <h2 class="contact__heading">Junior Frontend Developer</h2>
-            <ul class="contact__data">
-                <li class="contact__datum">123 My Street</li>
-                <li class="contact__datum">My City, ST 12345</li>
-                <li class="contact__datum">(123) 4567-890</li>
-                <li class="contact__datum">ivanrodriguez-no_reply@example.com</li>
-            </ul>
-        </div>
-    </section>
-    <section class="skills">
-        <div class="skills__container">
-            <h2 class="skills__heading">Skills</h2>
-            <ul class="skills__list">
-                <li class="skills_skill">HTML</li>
-                <li class="skills_skill">CSS</li>
-                <li class="skills_skill">SASS</li>
-                <li class="skills_skill">JavaScript</li>
-                <li class="skills_skill">TypeScript</li>
-                <li class="skills_skill">Angular</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="education">
-        <div class="education__container">
-            <h2 class="education__heading">Education</h2>
-            <h3 class="education__degree">Tecnológico Nacional de México - Computer Science</h3>
-            <p class="education__date">August 2021 to June 2026</p>
-            <ul class="education__achievements">
-                <li class="education__achiev">Research article for early detection of ulcers caused by diabetes</li>
-                <li class="education__achiev">Research article on the comparison of sorting time in sorting algorithms</li>
-                <li class="education__achiev">Chess Player</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="experience">
-        <div class="experience__container">
-            <h2 class="experience__heading">Experience</h2>
-            <article class="experience__company">
-                <h3 class="experience__jobTitle">Town Hall - Social Server</h3>
-                <p class="experience__date">December 2024 to June 2025</p>
-                <ul class="experience__achievements">
-                    <li class="experience__achiev">Mapping of networks covered by the city council in the city</li>
-                    <li class="experience__achiev">Develop a website for municipal tax matters</li>
+    <div class="container">
+        <header class="header">
+            <div class="header__container">
+                <hr>
+                <h1 class="header__myName">Ivan Doble R</h1>
+            </div>
+        </header>
+        <section class="contact">
+            <div class="contact__container">
+                <h2 class="contact__heading">Junior Frontend Developer</h2>
+                <ul class="contact__data">
+                    <li class="contact__datum">123 My Street</li>
+                    <li class="contact__datum">My City, ST 12345</li>
+                    <li class="contact__datum">(123) 4567-890</li>
+                    <li class="contact__datum">ivandobleR-no_reply@example.com</li>
                 </ul>
-                <ul class="experience__skills">
-                    <li class="experience__skill">HTML</li>
-                    <li class="experience__skill">CSS</li>
-                    <li class="experience__skill">Python</li>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="skills__container">
+                <h2 class="skills__heading">Skills</h2>
+                <p class="skills_list">HTML, CSS, SASS, JavaScript, TypeScript, Angular</p>
+            </div>
+        </section>
+    
+        <section class="education">
+            <div class="education__container">
+                <h2 class="education__heading">Education</h2>
+                <h3 class="education__degree">Tecnológico Nacional de México - Computer Science</h3>
+                <p class="education__date">August 2021 to June 2026</p>
+                <ul class="education__achievements">
+                    <li class="education__achiev">Research article for early detection of ulcers caused by diabetes</li>
+                    <li class="education__achiev">Research article on the comparison of sorting time in sorting algorithms</li>
+                    <li class="education__achiev">Chess Player</li>
                 </ul>
-            </article>
-            <article class="experience__company">
-                <h3 class="experience__jobTitle">Chaindrenciales - Frontend Developer</h3>
-                <p class="experience__date">January 2026 to June 2026</p>
-                <ul class="experience__achievements">
-                    <li class="experience__achiev">Development of the frontend module to centralize the human resources work team.</li>
+            </div>
+        </section>
+    
+        <main class="experience">
+            <div class="experience__container">
+                <h2 class="experience__heading">Experience</h2>
+                <article class="experience__company">
+                    <h3 class="experience__jobTitle">Town Hall - Social Server</h3>
+                    <p class="experience__date">December 2024 to June 2025</p>
+                    <ul class="experience__achievements">
+                        <li class="experience__achiev">Mapping of networks covered by the city council in the city</li>
+                        <li class="experience__achiev">Develop a website for municipal tax matters</li>
+                    </ul>
+                    <p class="experience__skills">Skills: HTML, CSS, Python</p>
+                </article>
+                <article class="experience__company">
+                    <h3 class="experience__jobTitle">Chaindrenciales - Frontend Developer</h3>
+                    <p class="experience__date">January 2026 to June 2026</p>
+                    <ul class="experience__achievements">
+                        <li class="experience__achiev">Development of the frontend module to centralize the human resources work team.</li>
+                    </ul>
+                    <p class="experience__skills">Skills: HTML, CSS, JavaScript, TypeScript, PostgreSQL, Postman</p>
+                </article>
+            </div>
+        </main>
+    
+        <section class="socialMedia">
+            <div class="socialMedia__container">
+                <h2 class="socialMedia__heading">Across the Internet</h2>
+                <ul class="socialMedia__links">
+                    <a class="socialMedia__link" href="https://www.linkedin.com/in/jivandobler">LinkedIn</a>
+                    <span>|</span>
+                    <a class="socialMedia__link" href="https://github.com/ivanrodriguez44">GitHub</a>
                 </ul>
-                <ul class="experience__skills">
-                    <li class="experience__skill">HTML</li>
-                    <li class="experience__skill">CSS</li>
-                    <li class="experience__skill">JavaScript</li>
-                    <li class="experience__skill">TypeScript</li>
-                    <li class="experience__skill">Angular</li>
-                    <li class="experience__skill">PostgreSQL</li>
-                    <li class="experience__skill">Postman</li>
-                </ul>
-            </article>
-        </div>
-    </section>
-
-    <section class="socialMedia">
-        <div class="socialMedia__container">
-            <h2 class="socialMedia__heading">Across the Internet</h2>
-            <ul class="socialMedia__links">
-                <li class="socialMedia__link"><a href="https://www.linkedin.com/in/jivandobler">LinkedIn</a></li>
-                <li class="socialMedia__link"><a href="https://github.com/ivanrodriguez44">GitHub</a></li>
-            </ul>
-        </div>
-    </section>
-
+            </div>
+        </section>
+    </div> <!-- container -->
 </body>
 </html>
